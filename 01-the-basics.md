@@ -1,18 +1,59 @@
 The basics
 
-1. mkdir git-basic
-2. cd git-basic/
-3. touch first.txt
-4. git init
-5. git add first.txt
-6. git commit -m "adding first.txt"
-7. git log
-8. touch second.txt
-9. git add second.txt
-10. git commit -m "adding second.txt"
-11. rm first.txt
-12. git add -u
-13. git commit -m "removing first.txt"
-14. git log
-
+1. Create a folder called git-basic. 
+```
+mkdir git-basic
+```
+2. cd into the git-basic folder. 
+```
+cd git-basic
+```
+3. Create a file called first.txt. 
+```
+touch first.txt
+```
+4. Initialize an empty git repository. 
+```
+git init
+```
+5. Add first.txt to the staging area. 
+```
+git add first.txt
+```
+6. Commit with the message "adding first.txt". 
+```
+git commit -m "adding first.txt"
+```
+7. Check out your commit with git log. 
+```
+git log
+```
+8. Create another file called second.txt. 
+```
+touch second.txt
+```
+9. Add second.txt to the staging area.
+```
+git add second.txt
+```
+10. Commit with the message "adding second.txt". 
+```
+git commit -m "adding second.txt"
+```
+11. Remove the first.txt file. 
+```
+rm first.txt
+```
+12. Add this change to the staging area. 
+```
+git add -u
+```
+13. Commit with the message "removing first.txt". 
+```
+git commit -m "removing first.txt"
+```
+14. Check out your commits using git log. 
+```
+git log
+```
 ![01-the-basics](https://user-images.githubusercontent.com/83164857/134159895-79327b9d-6c50-47cd-9efd-573afb8452a4.png)
