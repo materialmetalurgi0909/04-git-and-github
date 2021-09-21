@@ -14,3 +14,5 @@ The basics
 12. git add -u
 13. git commit -m "removing first.txt"
 14. git log
+
+![01-the-basics](https://user-images.githubusercontent.com/83164857/134159895-79327b9d-6c50-47cd-9efd-573afb8452a4.png)
