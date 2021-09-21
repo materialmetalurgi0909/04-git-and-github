@@ -50,3 +50,5 @@ git merge cv
 11. unggah Git Repository tersebut kedalam GitHub
 git remote add origin git remote add origin https://github.com/andrewelitar/04-git-and-github.git
 git push -u origin master
+![Screenshot from 2021-09-21 22-24-08](https://user-images.githubusercontent.com/83164857/134199940-2244cea5-6031-40b3-b34e-1bb0865f3768.png)
+
